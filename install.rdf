@@ -6,7 +6,7 @@
     <Description about="urn:mozilla:install-manifest">
         <em:id>tito@tabundoclose</em:id>
         <em:name>Tab undo close</em:name>
-        <em:version>0</em:version>
+        <em:version>0.1</em:version>
         <em:description>A menuitem on tab context menu to reopen the last closed tab (undo close tab).</em:description>
         <em:creator>Tito Bouzout</em:creator>
 		<em:homepageURL>https://github.com/titoBouzout/komodo-tab-undo-close</em:homepageURL>
