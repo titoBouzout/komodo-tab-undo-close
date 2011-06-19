@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<overlay  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  	
+	<script type="application/x-javascript">
+	  <![CDATA[
+		/*
+		  improvements more than welcome please submit these to github, regards
+		*/
+		var titoTabUndoClose = {
+		  
+		  undoCloseTab:function(aEvent)
+		  {
+			ko.history.open_rctab(-1);
+		  }
+		};
+	  ]]>
+	</script>
+  	
+	<!-- tab context menu -->
+  
+	  <menupopup id="tabContextMenu">
+		  
+
+  		  <menuitem
+			insertafter="menu_splittab"
+			id="tito-buffertab-context-undo-close-tab"
+			label="Undo Close Tab"
+			oncommand="titoTabUndoClose.undoCloseTab(event)"
+		  />
+		  <menuseparator
+			insertafter="menu_splittab"
+			id="tito-buffertab-context-undo-close-tab-separator"
+		  />
+		  
+	  </menupopup>
+</overlay>

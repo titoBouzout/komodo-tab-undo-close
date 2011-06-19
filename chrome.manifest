@@ -1,0 +1,2 @@
+content tabundoclose chrome/content/
+overlay chrome://komodo/content/komodo.xul chrome://tabundoclose/content/tabundoclose.xul
